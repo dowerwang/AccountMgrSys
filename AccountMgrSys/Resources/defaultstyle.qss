@@ -1,0 +1,10 @@
+QPushButton#pushButton_Unpaid:checked
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(227, 62, 62);
+}
+QPushButton#pushButton_Paid:checked
+{
+	color: rgb(255, 255, 255);
+	background-color: rgb(104, 208, 126);
+}

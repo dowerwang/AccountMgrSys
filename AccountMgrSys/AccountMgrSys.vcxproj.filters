@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{bf58e2a9-10c7-4dbe-aaa3-78e661d31cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Account管理">
+      <UniqueIdentifier>{8ec051a8-b4b5-4855-9de3-11a53325cc42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据库Helper">
+      <UniqueIdentifier>{729f0fcf-0813-4c8a-9395-46c188054be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Medicine管理">
+      <UniqueIdentifier>{e3a595c6-d662-4729-860f-9294544bf0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patient管理">
+      <UniqueIdentifier>{5aae30a0-613e-42cf-b96f-c216d5e385a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Record管理">
+      <UniqueIdentifier>{26607adc-5945-439d-9035-a144f7c2e8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Area管理">
+      <UniqueIdentifier>{de2212f7-19e7-49d0-82a3-076abaa5d155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="汉字转换">
+      <UniqueIdentifier>{febfb9fc-b8b7-4eb0-b1e5-6b60bdd856be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{de7e7bee-a2f3-4b30-998e-2e6afc89e58b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountMgrSys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountEditer.cpp">
+      <Filter>Account管理</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteHelper.cpp">
+      <Filter>数据库Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountAddDialog.cpp">
+      <Filter>Account管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicineEditor.cpp">
+      <Filter>Medicine管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicineAddDialog.cpp">
+      <Filter>Medicine管理</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientAddDialog.cpp">
+      <Filter>Patient管理</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordBrowseDialog.cpp">
+      <Filter>Record管理</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaEditor.cpp">
+      <Filter>Area管理</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientBrowseDialog.cpp">
+      <Filter>Patient管理</Filter>
+    </ClCompile>
+    <ClCompile Include="SysSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddsSelectWidget.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="MultAddDialog.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientTree.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordList.cpp">
+      <Filter>Record管理</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRecordDialog.cpp">
+      <Filter>Record管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CompleteLineEdit.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFilterProxyModel.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="IDCarInfoMation.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="AccountMgrSys.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LoginDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="AccountEditer.h">
+      <Filter>Account管理</Filter>
+    </QtMoc>
+    <QtMoc Include="SQLiteHelper.h">
+      <Filter>数据库Helper</Filter>
+    </QtMoc>
+    <QtMoc Include="AccountAddDialog.h">
+      <Filter>Account管理</Filter>
+    </QtMoc>
+    <QtMoc Include="MedicineEditor.h">
+      <Filter>Medicine管理</Filter>
+    </QtMoc>
+    <QtMoc Include="MedicineAddDialog.h">
+      <Filter>Medicine管理</Filter>
+    </QtMoc>
+    <QtMoc Include="ItemDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PatientAddDialog.h">
+      <Filter>Patient管理</Filter>
+    </QtMoc>
+    <QtMoc Include="RecordBrowseDialog.h">
+      <Filter>Record管理</Filter>
+    </QtMoc>
+    <QtMoc Include="AreaEditor.h">
+      <Filter>Area管理</Filter>
+    </QtMoc>
+    <QtMoc Include="PatientBrowseDialog.h">
+      <Filter>Patient管理</Filter>
+    </QtMoc>
+    <QtMoc Include="SysSettings.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="AddsSelectWidget.h">
+      <Filter>Tools</Filter>
+    </QtMoc>
+    <QtMoc Include="MultAddDialog.h">
+      <Filter>Tools</Filter>
+    </QtMoc>
+    <QtMoc Include="PatientTree.h">
+      <Filter>Tools</Filter>
+    </QtMoc>
+    <QtMoc Include="RecordList.h">
+      <Filter>Record管理</Filter>
+    </QtMoc>
+    <QtMoc Include="AddRecordDialog.h">
+      <Filter>Record管理</Filter>
+    </QtMoc>
+    <QtMoc Include="CompleteLineEdit.h">
+      <Filter>Tools</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="AccountMgrSys.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LoginDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="AccountEditer.ui">
+      <Filter>Account管理</Filter>
+    </QtUic>
+    <QtUic Include="AccountAddDialog.ui">
+      <Filter>Account管理</Filter>
+    </QtUic>
+    <QtUic Include="MedicineEditor.ui">
+      <Filter>Medicine管理</Filter>
+    </QtUic>
+    <QtUic Include="MedicineAddDialog.ui">
+      <Filter>Medicine管理</Filter>
+    </QtUic>
+    <QtUic Include="PatientAddDialog.ui">
+      <Filter>Patient管理</Filter>
+    </QtUic>
+    <QtUic Include="RecordBrowseDialog.ui">
+      <Filter>Record管理</Filter>
+    </QtUic>
+    <QtUic Include="AreaEditor.ui">
+      <Filter>Area管理</Filter>
+    </QtUic>
+    <QtUic Include="PatientBrowseDialog.ui">
+      <Filter>Patient管理</Filter>
+    </QtUic>
+    <QtUic Include="SysSettings.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="AddsSelectWidget.ui">
+      <Filter>Tools</Filter>
+    </QtUic>
+    <QtUic Include="MultAddDialog.ui">
+      <Filter>Tools</Filter>
+    </QtUic>
+    <QtUic Include="AddRecordDialog.ui">
+      <Filter>Record管理</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="AccountMgrSys.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommentData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCenter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFilterProxyModel.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDCarInfoMation.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AccountMgrSys.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultstyle.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

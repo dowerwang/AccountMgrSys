@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/AccountMgrSys"/>
+    <qresource prefix="/login">
+        <file>Resources/loginbitmaps/close red_hover.png</file>
+        <file>Resources/loginbitmaps/close red_press.png</file>
+        <file>Resources/loginbitmaps/guan bi hover.png</file>
+        <file>Resources/loginbitmaps/guan bi press.png</file>
+        <file>Resources/loginbitmaps/guan bi.png</file>
+        <file>Resources/loginbitmaps/hui fu hover.png</file>
+        <file>Resources/loginbitmaps/hui fu press.png</file>
+        <file>Resources/loginbitmaps/hui fu.png</file>
+        <file>Resources/loginbitmaps/max hover.png</file>
+        <file>Resources/loginbitmaps/max press.png</file>
+        <file>Resources/loginbitmaps/max.png</file>
+        <file>Resources/loginbitmaps/min hover.png</file>
+        <file>Resources/loginbitmaps/min press.png</file>
+        <file>Resources/loginbitmaps/min.png</file>
+        <file>Resources/loginbitmaps/弹出框-bg.png</file>
+        <file>Resources/loginbitmaps/导航栏back.png</file>
+        <file>Resources/loginbitmaps/切换用户-常态.png</file>
+        <file>Resources/loginbitmaps/切换用户-点击.png</file>
+        <file>Resources/loginbitmaps/切换用户-鼠标经过.png</file>
+        <file>Resources/loginbitmaps/用户登录-常态.png</file>
+        <file>Resources/loginbitmaps/用户登录-点击.png</file>
+        <file>Resources/loginbitmaps/用户登录-鼠标经过.png</file>
+        <file>Resources/loginbitmaps/terminator-icon.png</file>
+        <file>Resources/loginbitmaps/text-editor-icon.png</file>
+        <file>Resources/loginbitmaps/gparted-icon.png</file>
+        <file>Resources/loginbitmaps/gparted-icon96.png</file>
+        <file>Resources/loginbitmaps/gparted-icon16.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>Resources/defaultstyle.qss</file>
+    </qresource>
+</RCC>
