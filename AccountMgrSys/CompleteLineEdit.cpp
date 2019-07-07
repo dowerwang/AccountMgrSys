@@ -48,6 +48,18 @@ void CompleteLineEdit::initMedicineModel()
 	}
 }
 
+bool CompleteLineEdit::isListViewHidden()
+{
+	if (m_listView != nullptr)
+	{
+		return m_listView->isHidden();
+	}
+	else
+	{
+		return true;
+	}
+}
+
 void CompleteLineEdit::setCompleter(const QString &text)
 {
 	if (text.isEmpty()) {
@@ -74,6 +86,7 @@ void CompleteLineEdit::setCompleter(const QString &text)
 	m_listView->setMinimumWidth(width());
 
 	m_listView->setMaximumWidth(width());
+	m_listView->setFocus();
 	QPoint p(0, height());
 	int x = mapToGlobal(p).x();
 	int y = mapToGlobal(p).y() + 1;

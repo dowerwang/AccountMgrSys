@@ -85,6 +85,8 @@ void MultAddDialog::initDialog()
 	}
 	ui.lineEdit->setFocus(Qt::MouseFocusReason);
 	connect(ui.pushButton, &QPushButton::clicked, this, &MultAddDialog::slotOkBtnclicked);
+	connect(ui.pushButton_2, &QPushButton::clicked, this, &MultAddDialog::slotCancelBtnclicked);
+	ui.pushButton->setFocus();
 }
 
 void MultAddDialog::setShowText(const QString & str)
@@ -195,4 +197,9 @@ void MultAddDialog::slotOkBtnclicked()
 		break;
 	}
 	this->accept();
+}
+
+void MultAddDialog::slotCancelBtnclicked()
+{
+	this->reject();
 }

@@ -138,7 +138,7 @@
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,0,0">
       <property name="spacing">
        <number>0</number>
       </property>
@@ -177,6 +177,13 @@
         </property>
         <property name="text">
          <string>确定</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>取消</string>
         </property>
        </widget>
       </item>

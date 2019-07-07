@@ -18,7 +18,7 @@ public:
 	CompleteLineEdit(QWidget *parent);
 	~CompleteLineEdit();
 	void initMedicineModel();
-
+	bool isListViewHidden();
 signals:
 	void addUsemedicine(const MedicineInfo& medicine);
 public slots:

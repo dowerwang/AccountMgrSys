@@ -32,6 +32,7 @@ public:
 
 public slots:
 	void slotOkBtnclicked();
+	void slotCancelBtnclicked();
 private:
 	Ui::MultAddDialog ui;
 	OptMode m_mode;

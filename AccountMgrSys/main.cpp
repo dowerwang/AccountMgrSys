@@ -35,5 +35,9 @@ int main(int argc, char *argv[])
 	_loginDialog->exec();*/
 	w.show();
 	screen.finish(&w);
+
+	QIcon icon = QIcon(":/login/Resources/loginbitmaps/gparted-icon.png");
+	w.setWindowIcon(icon);
+
 	return a.exec();
 }

@@ -192,7 +192,11 @@
        </widget>
       </item>
       <item>
-       <widget class="CompleteLineEdit" name="lineEdit"/>
+       <widget class="CompleteLineEdit" name="lineEdit">
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="Line" name="line_10">
@@ -209,7 +213,11 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_4"/>
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="Line" name="line_5">
@@ -226,7 +234,11 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_2"/>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_11">
@@ -250,7 +262,11 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_3"/>
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_15">
@@ -268,6 +284,9 @@
       </item>
       <item>
        <widget class="QPushButton" name="pushButton">
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
         <property name="text">
          <string>确定添加</string>
         </property>

@@ -6,6 +6,7 @@
 #include <QDomElement>
 #include <QDate>
 #include <QDateTime>
+#include <QKeyEvent>
 #include "DataCenter.h"
 #include "SQLiteHelper.h"
 
@@ -57,7 +58,14 @@ AddRecordDialog::AddRecordDialog(QWidget *parent)
 	QRegExp rx("^(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*))$");
 	ui.lineEdit_4->setValidator(new QRegExpValidator(rx, this));
 	ui.lineEdit_3->setValidator(new QRegExpValidator(rx, this));
+	ui.lineEdit->installEventFilter(this);
+	ui.lineEdit_2->installEventFilter(this);
+	ui.lineEdit_3->installEventFilter(this);
+	ui.lineEdit_4->installEventFilter(this);
+	ui.pushButton->installEventFilter(this);
 	//initDialogData();
+
+	ui.pushButton->setFocusPolicy(Qt::FocusPolicy::NoFocus);
 }
 
 AddRecordDialog::AddRecordDialog(OptMode _mode, int _recordId, QWidget *parent /*= Q_NULLPTR*/)
@@ -108,7 +116,15 @@ AddRecordDialog::AddRecordDialog(OptMode _mode, int _recordId, QWidget *parent /
 	ui.lineEdit_4->setValidator(new QRegExpValidator(rx, this));
 	ui.lineEdit_3->setValidator(new QRegExpValidator(rx, this));
 
+	ui.lineEdit->installEventFilter(this);
+	ui.lineEdit_2->installEventFilter(this);
+	ui.lineEdit_3->installEventFilter(this);
+	ui.lineEdit_4->installEventFilter(this);
+	ui.pushButton->installEventFilter(this);
+
 	initDialogData();
+
+	ui.pushButton->setFocusPolicy(Qt::FocusPolicy::NoFocus);
 }
 
 AddRecordDialog::~AddRecordDialog()
@@ -392,6 +408,42 @@ bool AddRecordDialog::eventFilter(QObject* obj, QEvent *evt)
 			m_Menu.exec(cursor().pos());           //在当前鼠标位置上运行菜单menu对象
 		}
 	}
+	if (evt->type() == QEvent::KeyPress)
+	{
+		QKeyEvent *ke = static_cast<QKeyEvent*>(evt);
+		if (ke->key() == Qt::Key_Enter|| ke->key() == Qt::Key_Return)
+		{
+			bool bMedicineEdit = ui.lineEdit->hasFocus();
+			bool bUnitpriceEdit = ui.lineEdit_4->hasFocus();
+			bool bCountEdit = ui.lineEdit_2->hasFocus();
+			bool bPriceEdit = ui.lineEdit_3->hasFocus();
+			if (bMedicineEdit&&ui.lineEdit->isListViewHidden())
+			{
+				this->focusNextChild();
+				ui.lineEdit_4->setFocus();
+			}
+			else if (bUnitpriceEdit)
+			{
+				this->focusNextChild();
+				ui.lineEdit_2->setFocus();
+			}
+			else if (bCountEdit)
+			{
+				this->focusNextChild();
+				ui.lineEdit_3->setFocus();
+			}
+			else if (bPriceEdit)
+			{
+				this->focusNextChild(); 
+				ui.lineEdit->setFocus();
+				slotAddUseMedicne();
+			}
+		}
+	}
+	if (evt->type() == QEvent::KeyRelease)
+	{
+
+	}
 	return QWidget::eventFilter(obj, evt);
 }
 
@@ -401,7 +453,7 @@ void AddRecordDialog::clearAddLineEdit()
 	ui.lineEdit_2->clear();
 	ui.lineEdit_3->clear();
 	ui.lineEdit_4->clear();
-	ui.lineEdit->setFocus(Qt::MouseFocusReason);
+	//ui.lineEdit->setFocus(Qt::MouseFocusReason);
 }
 
 void AddRecordDialog::autoCalculaAllMoney()

@@ -5,7 +5,7 @@ AccountMgrSys::AccountMgrSys(QWidget *parent)
 	: QMainWindow(parent)
 {
 	ui.setupUi(this); 
-	this->setWindowTitle("账目管理系统 V1.0 测试版");
+	this->setWindowTitle("账目管理系统 V1.1 测试版");
 	gDataBaseMgr;
 	gDataCenter;
 	initMainWindowLayout();
@@ -208,7 +208,7 @@ void AccountMgrSys::slotAboutButtonClicked()
 {
 	QMessageBox message(QMessageBox::Information, "关于", tr("<h1> AccountMgrSys 2019</h1>"
 
-		"<p><h4>Release 1.0 Beat</h4>"
+		"<p><h4>Release 1.1 Beat</h4>"
 		//"<p>Copyright © 2019-2019 Inc. & isoft "
 		"All rights reserved."
 		//"<p>版权所有 © 2013-2014 Inc. & isoft。 保留所有权利。"
