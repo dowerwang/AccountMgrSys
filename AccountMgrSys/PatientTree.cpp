@@ -65,6 +65,9 @@ void PatientTree::initTree()
 	QStandardItemModel* _tempModel = qobject_cast<QStandardItemModel*>(dynamic_cast<QSortFilterProxyModel*>(m_MainUi->treeView->model())->sourceModel());
 	//³õÊ¼»¯´å
 	m_villageMap.clear();
+	QStringList villageList = gDataCenter->getVillage();
+	if (villageList.isEmpty())
+		return;
 	QStandardItem* itemVillage = new QStandardItem(gDataCenter->getVillage()[1]);
 	itemVillage->setData(MARK_Village, ROLE_MARK);
 	itemVillage->setData(gDataCenter->getVillage()[0], ROLE_MARK_ID);

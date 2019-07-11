@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'SysSettings.ui'
 **
-** Created by: Qt User Interface Compiler version 5.13.0
+** Created by: Qt User Interface Compiler version 5.9.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,11 +10,14 @@
 #define UI_SYSSETTINGS_H
 
 #include <QtCore/QVariant>
+#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QHeaderView>
 
 QT_BEGIN_NAMESPACE
 
@@ -28,20 +31,20 @@ public:
     void setupUi(QDialog *SysSettings)
     {
         if (SysSettings->objectName().isEmpty())
-            SysSettings->setObjectName(QString::fromUtf8("SysSettings"));
+            SysSettings->setObjectName(QStringLiteral("SysSettings"));
         SysSettings->resize(574, 268);
         gridLayout = new QGridLayout(SysSettings);
         gridLayout->setSpacing(6);
         gridLayout->setContentsMargins(11, 11, 11, 11);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
         frame = new QFrame(SysSettings);
-        frame->setObjectName(QString::fromUtf8("frame"));
+        frame->setObjectName(QStringLiteral("frame"));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
         horizontalLayout = new QHBoxLayout(frame);
         horizontalLayout->setSpacing(5);
         horizontalLayout->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
 
         gridLayout->addWidget(frame, 0, 0, 1, 1);
@@ -54,7 +57,7 @@ public:
 
     void retranslateUi(QDialog *SysSettings)
     {
-        SysSettings->setWindowTitle(QCoreApplication::translate("SysSettings", "SysSettings", nullptr));
+        SysSettings->setWindowTitle(QApplication::translate("SysSettings", "SysSettings", Q_NULLPTR));
     } // retranslateUi
 
 };

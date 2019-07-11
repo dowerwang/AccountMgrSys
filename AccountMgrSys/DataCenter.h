@@ -13,7 +13,9 @@ public:
 	QStringList& getCity() { return m_city; }
 	QStringList& getArea() { return m_area; }
 	QStringList& getTown() { return m_town; }
-	QStringList& getVillage() { return m_village; }
+	QStringList& getVillage() { 
+		return m_village; 
+	}
 	QString getAddsStr();
 
 	void setPatientTreeModel(QStandardItemModel *_model) { m_patientModel = _model; }
