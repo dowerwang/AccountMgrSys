@@ -779,7 +779,7 @@ background-color: rgb(247,247,247);
           <property name="styleSheet">
            <string notr="true">QTreeView::item{
 
-height:36px;
+height:28px;
 }</string>
           </property>
          </widget>

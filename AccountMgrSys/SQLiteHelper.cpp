@@ -1098,14 +1098,14 @@ bool SQLiteHelper::deleteRecord(const RecordInfo& record)
 bool SQLiteHelper::updateRecord(const RecordInfo& record)
 {
 	QSqlQuery query(m_AccountDB);
-	query.prepare("UPDATE Record SET OptID = :optid , PatientID = :patientid , TotalMoney = :totalmoney , MedicineList = :medicinelist , RecStatus = :recstatus , ModifyDate = :modifydate , Discretion = :discretion"
+	query.prepare("UPDATE Record SET OptID = :optid , PatientID = :patientid , TotalMoney = :totalmoney , MedicineList = :medicinelist , RecStatus = :recstatus ,CreatDate = :creatdate, ModifyDate = :modifydate , Discretion = :discretion"
 		" WHERE ID = :id");
 	query.bindValue(":optid", record.m_optSupUserID);
 	query.bindValue(":patientid", record.m_recOfPatientID);
 	query.bindValue(":totalmoney", record.m_recTotalMoney);
 	query.bindValue(":medicinelist", record.m_MedicienList);
 	query.bindValue(":recstatus", record.m_recStatus);
-	//query.bindValue(":creatdate", record.m_recCreatDate);
+	query.bindValue(":creatdate", record.m_recCreatDate);
 	query.bindValue(":modifydate", record.m_recModifyDate);
 	query.bindValue(":discretion", record.m_recDiscript);
 	query.bindValue(":id", record.m_recID);

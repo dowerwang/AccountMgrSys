@@ -257,4 +257,7 @@
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\loginbitmaps\exeIcon.ico" />
+  </ItemGroup>
 </Project>

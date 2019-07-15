@@ -13,6 +13,7 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QDateTimeEdit>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
@@ -83,6 +84,9 @@ public:
     QFrame *line_9;
     QLabel *label_16;
     QLabel *label_17;
+    QGroupBox *groupBox_6;
+    QHBoxLayout *horizontalLayout_2;
+    QDateTimeEdit *dateTimeEdit;
     QSpacerItem *horizontalSpacer;
     QFrame *frame_2;
     QHBoxLayout *horizontalLayout_6;
@@ -377,6 +381,20 @@ public:
 
         horizontalLayout_5->addWidget(groupBox_4);
 
+        groupBox_6 = new QGroupBox(frame);
+        groupBox_6->setObjectName(QStringLiteral("groupBox_6"));
+        horizontalLayout_2 = new QHBoxLayout(groupBox_6);
+        horizontalLayout_2->setSpacing(6);
+        horizontalLayout_2->setContentsMargins(11, 11, 11, 11);
+        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        dateTimeEdit = new QDateTimeEdit(groupBox_6);
+        dateTimeEdit->setObjectName(QStringLiteral("dateTimeEdit"));
+
+        horizontalLayout_2->addWidget(dateTimeEdit);
+
+
+        horizontalLayout_5->addWidget(groupBox_6);
+
         horizontalSpacer = new QSpacerItem(333, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
         horizontalLayout_5->addItem(horizontalSpacer);
@@ -443,6 +461,7 @@ public:
         label_14->setText(QApplication::translate("AddRecordDialog", "\345\267\262\347\273\223", Q_NULLPTR));
         label_16->setText(QApplication::translate("AddRecordDialog", "\346\200\273\351\207\221\351\242\235\357\274\232", Q_NULLPTR));
         label_17->setText(QApplication::translate("AddRecordDialog", "0\345\205\203", Q_NULLPTR));
+        groupBox_6->setTitle(QApplication::translate("AddRecordDialog", "\350\256\260\345\275\225\346\227\266\351\227\264", Q_NULLPTR));
         pushButton_5->setText(QApplication::translate("AddRecordDialog", "\345\217\226\346\266\210", Q_NULLPTR));
         pushButton_4->setText(QApplication::translate("AddRecordDialog", "\347\241\256\345\256\232", Q_NULLPTR));
     } // retranslateUi

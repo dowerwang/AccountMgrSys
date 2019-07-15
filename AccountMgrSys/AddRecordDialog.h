@@ -34,6 +34,7 @@ public slots:
 	void sortByColumn(int);
 	void slotItemChanged(QStandardItem *item);
 	void slotReciveUseMedicne(const MedicineInfo& medicine);
+	void slotRecordDataChanged();
 protected:
 	bool eventFilter(QObject* obj, QEvent *evt);
 private:

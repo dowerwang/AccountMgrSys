@@ -63,6 +63,10 @@ AddRecordDialog::AddRecordDialog(QWidget *parent)
 	ui.lineEdit_3->installEventFilter(this);
 	ui.lineEdit_4->installEventFilter(this);
 	ui.pushButton->installEventFilter(this);
+	ui.dateTimeEdit->setDisplayFormat("yyyy-MM-dd hh:mm:ss");
+	ui.dateTimeEdit->setCalendarPopup(true);
+	ui.dateTimeEdit->setDateTime(QDateTime::currentDateTime());
+	connect(ui.dateTimeEdit, &QDateTimeEdit::dateChanged, this, &AddRecordDialog::slotRecordDataChanged);
 	//initDialogData();
 
 	ui.pushButton->setFocusPolicy(Qt::FocusPolicy::NoFocus);
@@ -122,8 +126,11 @@ AddRecordDialog::AddRecordDialog(OptMode _mode, int _recordId, QWidget *parent /
 	ui.lineEdit_4->installEventFilter(this);
 	ui.pushButton->installEventFilter(this);
 
+	ui.dateTimeEdit->setDisplayFormat("yyyy-MM-dd hh:mm:ss");
+	ui.dateTimeEdit->setCalendarPopup(true);
+	
 	initDialogData();
-
+	connect(ui.dateTimeEdit, &QDateTimeEdit::dateChanged, this, &AddRecordDialog::slotRecordDataChanged);
 	ui.pushButton->setFocusPolicy(Qt::FocusPolicy::NoFocus);
 }
 
@@ -196,6 +203,7 @@ void AddRecordDialog::initDialogData()
 				QString _age = getPatientAge(_isExcist.m_patientIDCar);
 				ui.label_6->setText(_age);
 				ui.label_8->setText(_isExcist.m_patientIDCar);
+				ui.dateTimeEdit->setDateTime(QDateTime::fromString(_record.m_recCreatDate, "yyyy-MM-dd hh:mm:ss"));
 			}
 		}
 	}
@@ -338,8 +346,9 @@ void AddRecordDialog::slotOkBtnClicked()
 	_record.m_recTotalMoney = m_currentMoney;
 	_record.m_MedicienList = doc.toString();
 	_record.m_recStatus = ui.label_14->text();
-	if (m_mode == Add_Mode)
-		_record.m_recCreatDate = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
+	/*if (m_mode == Add_Mode)
+		_record.m_recCreatDate = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");*/
+	_record.m_recCreatDate = ui.dateTimeEdit->dateTime().toString("yyyy-MM-dd hh:mm:ss");
 	_record.m_recModifyDate= QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
 	_record.m_recDiscript = ui.textEdit->toPlainText();
 	if (m_mode == Add_Mode)
@@ -397,6 +406,11 @@ void AddRecordDialog::slotReciveUseMedicne(const MedicineInfo& medicine)
 	m_currentMedicine = medicine;
 	ui.label_11->setText(m_currentMedicine.m_medicineUnit);
 	//ui.lineEdit_2->setValidator(new QIntValidator(0, medicine.m_medicineInventory, this));
+}
+
+void AddRecordDialog::slotRecordDataChanged()
+{
+
 }
 
 bool AddRecordDialog::eventFilter(QObject* obj, QEvent *evt)

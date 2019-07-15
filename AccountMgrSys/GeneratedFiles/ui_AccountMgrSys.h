@@ -624,7 +624,7 @@ public:
         treeView->setObjectName(QStringLiteral("treeView"));
         treeView->setStyleSheet(QLatin1String("QTreeView::item{\n"
 "\n"
-"height:36px;\n"
+"height:28px;\n"
 "}"));
 
         verticalLayout->addWidget(treeView);
