@@ -50,7 +50,8 @@ MedicineEditor::MedicineEditor(QWidget *parent)
 
 	//MedicineEditorDelegate *_itemDelegate = new MedicineEditorDelegate;
 	//ui.tableView->setItemDelegateForColumn(4, _itemDelegate);
-	ui.tableView->setItemDelegate(new MedicineDelegate(this));
+	//ui.tableView->setItemDelegate(new MedicineDelegate(this));
+	ui.tableView->setItemDelegateForColumn(4, new MedicineDelegate(this));
 	ui.tableView->hideColumn(0);
 }
 

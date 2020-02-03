@@ -163,6 +163,7 @@ void AccountMgrSys::slotUserMgr()
 void AccountMgrSys::slotMedicineMgr()
 {
 	MedicineEditor *_medicineEditor = new MedicineEditor();
+	Q_ASSERT(_medicineEditor != nullptr);
 	_medicineEditor->exec();
 	if (_medicineEditor)
 		delete _medicineEditor;

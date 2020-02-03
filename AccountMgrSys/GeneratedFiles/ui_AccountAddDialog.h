@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AccountAddDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -322,23 +322,23 @@ public:
 
     void retranslateUi(QDialog *AccountAddDialog)
     {
-        AccountAddDialog->setWindowTitle(QApplication::translate("AccountAddDialog", "AccountAddDialog", Q_NULLPTR));
-        label_2->setText(QApplication::translate("AccountAddDialog", "\347\256\241\347\220\206\345\221\230ID\357\274\232", Q_NULLPTR));
-        label_4->setText(QApplication::translate("AccountAddDialog", "\346\200\247\345\210\253\357\274\232", Q_NULLPTR));
-        radioButton->setText(QApplication::translate("AccountAddDialog", "\347\224\267", Q_NULLPTR));
-        radioButton_2->setText(QApplication::translate("AccountAddDialog", "\345\245\263", Q_NULLPTR));
-        label_5->setText(QApplication::translate("AccountAddDialog", "\347\256\241\347\220\206\345\221\230\347\261\273\345\236\213\357\274\232", Q_NULLPTR));
-        radioButton_3->setText(QApplication::translate("AccountAddDialog", "\346\231\256\351\200\232", Q_NULLPTR));
-        radioButton_4->setText(QApplication::translate("AccountAddDialog", "\350\266\205\347\272\247", Q_NULLPTR));
-        label_6->setText(QApplication::translate("AccountAddDialog", "\350\272\253\344\273\275\350\257\201\345\217\267\347\240\201\357\274\232", Q_NULLPTR));
-        label_7->setText(QApplication::translate("AccountAddDialog", "\347\231\273\351\231\206\345\257\206\347\240\201\357\274\232", Q_NULLPTR));
-        label_8->setText(QApplication::translate("AccountAddDialog", "\350\201\224\347\263\273\346\226\271\345\274\217\357\274\232", Q_NULLPTR));
-        label_9->setText(QApplication::translate("AccountAddDialog", "\344\275\217\345\235\200\357\274\232", Q_NULLPTR));
-        label_10->setText(QApplication::translate("AccountAddDialog", "\346\217\217\350\277\260\357\274\232", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("AccountAddDialog", "\347\241\256\345\256\232", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("AccountAddDialog", "\345\217\226\346\266\210", Q_NULLPTR));
-        label_3->setText(QApplication::translate("AccountAddDialog", "\345\247\223\345\220\215\357\274\232", Q_NULLPTR));
-        label->setText(QApplication::translate("AccountAddDialog", "\346\226\260\345\273\272\347\256\241\347\220\206\345\221\230", Q_NULLPTR));
+        AccountAddDialog->setWindowTitle(QApplication::translate("AccountAddDialog", "AccountAddDialog", nullptr));
+        label_2->setText(QApplication::translate("AccountAddDialog", "\347\256\241\347\220\206\345\221\230ID\357\274\232", nullptr));
+        label_4->setText(QApplication::translate("AccountAddDialog", "\346\200\247\345\210\253\357\274\232", nullptr));
+        radioButton->setText(QApplication::translate("AccountAddDialog", "\347\224\267", nullptr));
+        radioButton_2->setText(QApplication::translate("AccountAddDialog", "\345\245\263", nullptr));
+        label_5->setText(QApplication::translate("AccountAddDialog", "\347\256\241\347\220\206\345\221\230\347\261\273\345\236\213\357\274\232", nullptr));
+        radioButton_3->setText(QApplication::translate("AccountAddDialog", "\346\231\256\351\200\232", nullptr));
+        radioButton_4->setText(QApplication::translate("AccountAddDialog", "\350\266\205\347\272\247", nullptr));
+        label_6->setText(QApplication::translate("AccountAddDialog", "\350\272\253\344\273\275\350\257\201\345\217\267\347\240\201\357\274\232", nullptr));
+        label_7->setText(QApplication::translate("AccountAddDialog", "\347\231\273\351\231\206\345\257\206\347\240\201\357\274\232", nullptr));
+        label_8->setText(QApplication::translate("AccountAddDialog", "\350\201\224\347\263\273\346\226\271\345\274\217\357\274\232", nullptr));
+        label_9->setText(QApplication::translate("AccountAddDialog", "\344\275\217\345\235\200\357\274\232", nullptr));
+        label_10->setText(QApplication::translate("AccountAddDialog", "\346\217\217\350\277\260\357\274\232", nullptr));
+        pushButton->setText(QApplication::translate("AccountAddDialog", "\347\241\256\345\256\232", nullptr));
+        pushButton_2->setText(QApplication::translate("AccountAddDialog", "\345\217\226\346\266\210", nullptr));
+        label_3->setText(QApplication::translate("AccountAddDialog", "\345\247\223\345\220\215\357\274\232", nullptr));
+        label->setText(QApplication::translate("AccountAddDialog", "\346\226\260\345\273\272\347\256\241\347\220\206\345\221\230", nullptr));
     } // retranslateUi
 
 };

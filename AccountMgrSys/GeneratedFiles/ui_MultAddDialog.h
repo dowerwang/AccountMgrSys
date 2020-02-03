@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'MultAddDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -166,12 +166,12 @@ public:
 
     void retranslateUi(QDialog *MultAddDialog)
     {
-        MultAddDialog->setWindowTitle(QApplication::translate("MultAddDialog", "MultAddDialog", Q_NULLPTR));
-        groupBox->setTitle(QApplication::translate("MultAddDialog", "\346\267\273\345\212\240\351\225\207", Q_NULLPTR));
-        label_2->setText(QApplication::translate("MultAddDialog", "\346\210\267\344\270\273\350\272\253\344\273\275\350\257\201\357\274\232", Q_NULLPTR));
-        label->setText(QApplication::translate("MultAddDialog", "\345\220\215\347\247\260\357\274\232", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("MultAddDialog", "\347\241\256\345\256\232", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("MultAddDialog", "\345\217\226\346\266\210", Q_NULLPTR));
+        MultAddDialog->setWindowTitle(QApplication::translate("MultAddDialog", "MultAddDialog", nullptr));
+        groupBox->setTitle(QApplication::translate("MultAddDialog", "\346\267\273\345\212\240\351\225\207", nullptr));
+        label_2->setText(QApplication::translate("MultAddDialog", "\346\210\267\344\270\273\350\272\253\344\273\275\350\257\201\357\274\232", nullptr));
+        label->setText(QApplication::translate("MultAddDialog", "\345\220\215\347\247\260\357\274\232", nullptr));
+        pushButton->setText(QApplication::translate("MultAddDialog", "\347\241\256\345\256\232", nullptr));
+        pushButton_2->setText(QApplication::translate("MultAddDialog", "\345\217\226\346\266\210", nullptr));
     } // retranslateUi
 
 };

@@ -63,7 +63,7 @@ void SQLiteHelper::initAccountDB()
 				qDebug() << "Table Account created!";
 			}
 			//Medicine表 药品编号 药品名 库存数 单价 计量单位 描述
-			create_sql = "create table IF NOT EXISTS Medicine(ID integer primary key autoincrement, Name text , Inventory double , Unitprice float , Measurement text, Discretion text)";
+			create_sql = "create table IF NOT EXISTS Medicine(ID integer primary key autoincrement, Name text , Inventory int , Unitprice float , Measurement text, Discretion text)";
 			sql_query.prepare(create_sql);
 			if (!sql_query.exec())
 			{

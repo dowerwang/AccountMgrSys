@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AccountMgrSys.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -642,37 +642,37 @@ public:
 
     void retranslateUi(QMainWindow *AccountMgrSysClass)
     {
-        AccountMgrSysClass->setWindowTitle(QApplication::translate("AccountMgrSysClass", "AccountMgrSys", Q_NULLPTR));
-        label_25->setText(QApplication::translate("AccountMgrSysClass", "\350\257\267\351\200\211\346\213\251\344\272\272\345\221\230", Q_NULLPTR));
-        groupBox->setTitle(QApplication::translate("AccountMgrSysClass", "\344\272\272\345\221\230\344\277\241\346\201\257", Q_NULLPTR));
-        label->setText(QApplication::translate("AccountMgrSysClass", "\345\247\223\345\220\215\357\274\232", Q_NULLPTR));
-        label_2->setText(QApplication::translate("AccountMgrSysClass", "\347\216\213\345\260\217\346\230\216", Q_NULLPTR));
-        label_3->setText(QApplication::translate("AccountMgrSysClass", "\346\200\247\345\210\253\357\274\232", Q_NULLPTR));
-        label_4->setText(QApplication::translate("AccountMgrSysClass", "\347\224\267", Q_NULLPTR));
-        label_5->setText(QApplication::translate("AccountMgrSysClass", "\345\271\264\351\276\204\357\274\232", Q_NULLPTR));
-        label_6->setText(QApplication::translate("AccountMgrSysClass", "18\345\262\201", Q_NULLPTR));
-        label_9->setText(QApplication::translate("AccountMgrSysClass", "\350\272\253\344\273\275\350\257\201\345\217\267\357\274\232", Q_NULLPTR));
-        label_10->setText(QApplication::translate("AccountMgrSysClass", "123456789", Q_NULLPTR));
-        label_7->setText(QApplication::translate("AccountMgrSysClass", "\346\210\267\344\270\273\357\274\232", Q_NULLPTR));
-        label_8->setText(QApplication::translate("AccountMgrSysClass", "\347\216\213\345\244\247\346\230\216", Q_NULLPTR));
-        label_11->setText(QApplication::translate("AccountMgrSysClass", "\350\201\224\347\263\273\347\224\265\350\257\235\357\274\232", Q_NULLPTR));
-        label_12->setText(QApplication::translate("AccountMgrSysClass", "123456789", Q_NULLPTR));
-        label_13->setText(QApplication::translate("AccountMgrSysClass", "\344\275\217\345\235\200\357\274\232", Q_NULLPTR));
-        label_14->setText(QApplication::translate("AccountMgrSysClass", "\346\271\226\345\215\227\347\234\201\345\262\263\351\230\263\345\270\202\345\220\233\345\261\261\345\214\272\350\256\270\345\270\202\351\225\207\344\272\224\346\271\226\346\235\2211\347\273\204", Q_NULLPTR));
-        label_15->setText(QApplication::translate("AccountMgrSysClass", "\346\217\217\350\277\260\357\274\232", Q_NULLPTR));
-        label_16->setText(QApplication::translate("AccountMgrSysClass", "\346\254\240\351\222\261\344\270\215\350\277\230", Q_NULLPTR));
-        label_17->setText(QApplication::translate("AccountMgrSysClass", "\346\200\273\350\256\260\345\275\225\357\274\232", Q_NULLPTR));
-        label_18->setText(QApplication::translate("AccountMgrSysClass", "12\346\235\241", Q_NULLPTR));
-        label_19->setText(QApplication::translate("AccountMgrSysClass", "\346\200\273\351\207\221\351\242\235\357\274\232", Q_NULLPTR));
-        label_20->setText(QApplication::translate("AccountMgrSysClass", "1032\345\205\203", Q_NULLPTR));
-        label_21->setText(QApplication::translate("AccountMgrSysClass", "\346\234\252\347\273\223\350\256\260\345\275\225\357\274\232", Q_NULLPTR));
-        label_22->setText(QApplication::translate("AccountMgrSysClass", "4\346\235\241", Q_NULLPTR));
-        label_23->setText(QApplication::translate("AccountMgrSysClass", "\346\234\252\347\273\223\351\207\221\351\242\235\357\274\232", Q_NULLPTR));
-        label_24->setText(QApplication::translate("AccountMgrSysClass", "100\345\205\203", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("AccountMgrSysClass", "\346\226\260\345\273\272\350\256\260\345\275\225", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("AccountMgrSysClass", "\345\210\240\351\231\244\346\211\200\351\200\211", Q_NULLPTR));
-        pushButton_3->setText(QApplication::translate("AccountMgrSysClass", "\346\217\220\344\272\244\350\256\260\345\275\225", Q_NULLPTR));
-        dockWidget->setWindowTitle(QApplication::translate("AccountMgrSysClass", "\350\264\246\347\233\256\345\210\227\350\241\250", Q_NULLPTR));
+        AccountMgrSysClass->setWindowTitle(QApplication::translate("AccountMgrSysClass", "AccountMgrSys", nullptr));
+        label_25->setText(QApplication::translate("AccountMgrSysClass", "\350\257\267\351\200\211\346\213\251\344\272\272\345\221\230", nullptr));
+        groupBox->setTitle(QApplication::translate("AccountMgrSysClass", "\344\272\272\345\221\230\344\277\241\346\201\257", nullptr));
+        label->setText(QApplication::translate("AccountMgrSysClass", "\345\247\223\345\220\215\357\274\232", nullptr));
+        label_2->setText(QApplication::translate("AccountMgrSysClass", "\347\216\213\345\260\217\346\230\216", nullptr));
+        label_3->setText(QApplication::translate("AccountMgrSysClass", "\346\200\247\345\210\253\357\274\232", nullptr));
+        label_4->setText(QApplication::translate("AccountMgrSysClass", "\347\224\267", nullptr));
+        label_5->setText(QApplication::translate("AccountMgrSysClass", "\345\271\264\351\276\204\357\274\232", nullptr));
+        label_6->setText(QApplication::translate("AccountMgrSysClass", "18\345\262\201", nullptr));
+        label_9->setText(QApplication::translate("AccountMgrSysClass", "\350\272\253\344\273\275\350\257\201\345\217\267\357\274\232", nullptr));
+        label_10->setText(QApplication::translate("AccountMgrSysClass", "123456789", nullptr));
+        label_7->setText(QApplication::translate("AccountMgrSysClass", "\346\210\267\344\270\273\357\274\232", nullptr));
+        label_8->setText(QApplication::translate("AccountMgrSysClass", "\347\216\213\345\244\247\346\230\216", nullptr));
+        label_11->setText(QApplication::translate("AccountMgrSysClass", "\350\201\224\347\263\273\347\224\265\350\257\235\357\274\232", nullptr));
+        label_12->setText(QApplication::translate("AccountMgrSysClass", "123456789", nullptr));
+        label_13->setText(QApplication::translate("AccountMgrSysClass", "\344\275\217\345\235\200\357\274\232", nullptr));
+        label_14->setText(QApplication::translate("AccountMgrSysClass", "\346\271\226\345\215\227\347\234\201\345\262\263\351\230\263\345\270\202\345\220\233\345\261\261\345\214\272\350\256\270\345\270\202\351\225\207\344\272\224\346\271\226\346\235\2211\347\273\204", nullptr));
+        label_15->setText(QApplication::translate("AccountMgrSysClass", "\346\217\217\350\277\260\357\274\232", nullptr));
+        label_16->setText(QApplication::translate("AccountMgrSysClass", "\346\254\240\351\222\261\344\270\215\350\277\230", nullptr));
+        label_17->setText(QApplication::translate("AccountMgrSysClass", "\346\200\273\350\256\260\345\275\225\357\274\232", nullptr));
+        label_18->setText(QApplication::translate("AccountMgrSysClass", "12\346\235\241", nullptr));
+        label_19->setText(QApplication::translate("AccountMgrSysClass", "\346\200\273\351\207\221\351\242\235\357\274\232", nullptr));
+        label_20->setText(QApplication::translate("AccountMgrSysClass", "1032\345\205\203", nullptr));
+        label_21->setText(QApplication::translate("AccountMgrSysClass", "\346\234\252\347\273\223\350\256\260\345\275\225\357\274\232", nullptr));
+        label_22->setText(QApplication::translate("AccountMgrSysClass", "4\346\235\241", nullptr));
+        label_23->setText(QApplication::translate("AccountMgrSysClass", "\346\234\252\347\273\223\351\207\221\351\242\235\357\274\232", nullptr));
+        label_24->setText(QApplication::translate("AccountMgrSysClass", "100\345\205\203", nullptr));
+        pushButton->setText(QApplication::translate("AccountMgrSysClass", "\346\226\260\345\273\272\350\256\260\345\275\225", nullptr));
+        pushButton_2->setText(QApplication::translate("AccountMgrSysClass", "\345\210\240\351\231\244\346\211\200\351\200\211", nullptr));
+        pushButton_3->setText(QApplication::translate("AccountMgrSysClass", "\346\217\220\344\272\244\350\256\260\345\275\225", nullptr));
+        dockWidget->setWindowTitle(QApplication::translate("AccountMgrSysClass", "\350\264\246\347\233\256\345\210\227\350\241\250", nullptr));
         lineEdit->setText(QString());
     } // retranslateUi
 

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'PatientBrowseDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -172,16 +172,16 @@ public:
 
     void retranslateUi(QWidget *PatientBrowseDialog)
     {
-        PatientBrowseDialog->setWindowTitle(QApplication::translate("PatientBrowseDialog", "PatientBrowseDialog", Q_NULLPTR));
-        radioButton_3->setText(QApplication::translate("PatientBrowseDialog", "\346\214\211\350\272\253\344\273\275\350\257\201", Q_NULLPTR));
-        radioButton_2->setText(QApplication::translate("PatientBrowseDialog", "\346\214\211\346\202\243\350\200\205", Q_NULLPTR));
-        radioButton->setText(QApplication::translate("PatientBrowseDialog", "\346\214\211\346\210\267\344\270\273", Q_NULLPTR));
-        pushButton_3->setText(QApplication::translate("PatientBrowseDialog", "\346\237\245\346\211\276", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("PatientBrowseDialog", "\346\267\273\345\212\240\346\235\221", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("PatientBrowseDialog", "\346\267\273\345\212\240\347\273\204", Q_NULLPTR));
-        pushButton_7->setText(QApplication::translate("PatientBrowseDialog", "\346\267\273\345\212\240\346\202\243\350\200\205", Q_NULLPTR));
-        pushButton_4->setText(QApplication::translate("PatientBrowseDialog", "\345\210\240\351\231\244", Q_NULLPTR));
-        pushButton_5->setText(QApplication::translate("PatientBrowseDialog", "\346\217\220\344\272\244", Q_NULLPTR));
+        PatientBrowseDialog->setWindowTitle(QApplication::translate("PatientBrowseDialog", "PatientBrowseDialog", nullptr));
+        radioButton_3->setText(QApplication::translate("PatientBrowseDialog", "\346\214\211\350\272\253\344\273\275\350\257\201", nullptr));
+        radioButton_2->setText(QApplication::translate("PatientBrowseDialog", "\346\214\211\346\202\243\350\200\205", nullptr));
+        radioButton->setText(QApplication::translate("PatientBrowseDialog", "\346\214\211\346\210\267\344\270\273", nullptr));
+        pushButton_3->setText(QApplication::translate("PatientBrowseDialog", "\346\237\245\346\211\276", nullptr));
+        pushButton->setText(QApplication::translate("PatientBrowseDialog", "\346\267\273\345\212\240\346\235\221", nullptr));
+        pushButton_2->setText(QApplication::translate("PatientBrowseDialog", "\346\267\273\345\212\240\347\273\204", nullptr));
+        pushButton_7->setText(QApplication::translate("PatientBrowseDialog", "\346\267\273\345\212\240\346\202\243\350\200\205", nullptr));
+        pushButton_4->setText(QApplication::translate("PatientBrowseDialog", "\345\210\240\351\231\244", nullptr));
+        pushButton_5->setText(QApplication::translate("PatientBrowseDialog", "\346\217\220\344\272\244", nullptr));
     } // retranslateUi
 
 };

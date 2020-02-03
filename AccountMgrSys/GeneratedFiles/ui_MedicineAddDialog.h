@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'MedicineAddDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -236,16 +236,16 @@ public:
 
     void retranslateUi(QDialog *MedicineAddDialog)
     {
-        MedicineAddDialog->setWindowTitle(QApplication::translate("MedicineAddDialog", "MedicineAddDialog", Q_NULLPTR));
-        label->setText(QApplication::translate("MedicineAddDialog", "\346\226\260\345\242\236\350\215\257\345\223\201", Q_NULLPTR));
-        label_2->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\345\220\215\347\247\260\357\274\232", Q_NULLPTR));
-        label_3->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\345\215\225\344\273\267\357\274\232", Q_NULLPTR));
-        label_7->setText(QApplication::translate("MedicineAddDialog", "\345\215\225\344\275\215\357\274\232\345\205\203", Q_NULLPTR));
-        label_4->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\350\256\241\351\207\217\345\215\225\344\275\215\357\274\232", Q_NULLPTR));
-        label_5->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\345\275\223\345\211\215\345\272\223\345\255\230\357\274\232", Q_NULLPTR));
-        label_6->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\346\217\217\350\277\260\357\274\232", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("MedicineAddDialog", "\347\241\256\345\256\232", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("MedicineAddDialog", "\345\217\226\346\266\210", Q_NULLPTR));
+        MedicineAddDialog->setWindowTitle(QApplication::translate("MedicineAddDialog", "MedicineAddDialog", nullptr));
+        label->setText(QApplication::translate("MedicineAddDialog", "\346\226\260\345\242\236\350\215\257\345\223\201", nullptr));
+        label_2->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\345\220\215\347\247\260\357\274\232", nullptr));
+        label_3->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\345\215\225\344\273\267\357\274\232", nullptr));
+        label_7->setText(QApplication::translate("MedicineAddDialog", "\345\215\225\344\275\215\357\274\232\345\205\203", nullptr));
+        label_4->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\350\256\241\351\207\217\345\215\225\344\275\215\357\274\232", nullptr));
+        label_5->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\345\275\223\345\211\215\345\272\223\345\255\230\357\274\232", nullptr));
+        label_6->setText(QApplication::translate("MedicineAddDialog", "\350\215\257\345\223\201\346\217\217\350\277\260\357\274\232", nullptr));
+        pushButton->setText(QApplication::translate("MedicineAddDialog", "\347\241\256\345\256\232", nullptr));
+        pushButton_2->setText(QApplication::translate("MedicineAddDialog", "\345\217\226\346\266\210", nullptr));
     } // retranslateUi
 
 };

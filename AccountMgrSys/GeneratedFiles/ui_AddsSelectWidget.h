@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AddsSelectWidget.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -200,14 +200,14 @@ public:
 
     void retranslateUi(QWidget *AddsSelectWidget)
     {
-        AddsSelectWidget->setWindowTitle(QApplication::translate("AddsSelectWidget", "AddsSelectWidget", Q_NULLPTR));
-        label->setText(QApplication::translate("AddsSelectWidget", "\350\275\257\344\273\266\346\223\215\344\275\234\345\234\260\345\214\272\357\274\232", Q_NULLPTR));
-        label_2->setText(QApplication::translate("AddsSelectWidget", "\347\234\201\357\274\232", Q_NULLPTR));
-        label_3->setText(QApplication::translate("AddsSelectWidget", "\345\270\202\357\274\232", Q_NULLPTR));
-        label_4->setText(QApplication::translate("AddsSelectWidget", "\345\214\272\357\274\232", Q_NULLPTR));
-        label_5->setText(QApplication::translate("AddsSelectWidget", "\347\256\241\347\220\206\351\225\207\346\235\221\357\274\232", Q_NULLPTR));
-        label_6->setText(QApplication::translate("AddsSelectWidget", "\351\225\207\357\274\232", Q_NULLPTR));
-        label_7->setText(QApplication::translate("AddsSelectWidget", "\346\235\221\357\274\232", Q_NULLPTR));
+        AddsSelectWidget->setWindowTitle(QApplication::translate("AddsSelectWidget", "AddsSelectWidget", nullptr));
+        label->setText(QApplication::translate("AddsSelectWidget", "\350\275\257\344\273\266\346\223\215\344\275\234\345\234\260\345\214\272\357\274\232", nullptr));
+        label_2->setText(QApplication::translate("AddsSelectWidget", "\347\234\201\357\274\232", nullptr));
+        label_3->setText(QApplication::translate("AddsSelectWidget", "\345\270\202\357\274\232", nullptr));
+        label_4->setText(QApplication::translate("AddsSelectWidget", "\345\214\272\357\274\232", nullptr));
+        label_5->setText(QApplication::translate("AddsSelectWidget", "\347\256\241\347\220\206\351\225\207\346\235\221\357\274\232", nullptr));
+        label_6->setText(QApplication::translate("AddsSelectWidget", "\351\225\207\357\274\232", nullptr));
+        label_7->setText(QApplication::translate("AddsSelectWidget", "\346\235\221\357\274\232", nullptr));
     } // retranslateUi
 
 };

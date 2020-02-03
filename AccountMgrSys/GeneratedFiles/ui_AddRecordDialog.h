@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AddRecordDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -434,36 +434,36 @@ public:
 
     void retranslateUi(QDialog *AddRecordDialog)
     {
-        AddRecordDialog->setWindowTitle(QApplication::translate("AddRecordDialog", "AddRecordDialog", Q_NULLPTR));
-        groupBox->setTitle(QApplication::translate("AddRecordDialog", "\344\272\272\345\221\230\344\277\241\346\201\257", Q_NULLPTR));
-        label->setText(QApplication::translate("AddRecordDialog", "\345\247\223\345\220\215\357\274\232", Q_NULLPTR));
-        label_2->setText(QApplication::translate("AddRecordDialog", "\345\260\217\346\230\216", Q_NULLPTR));
-        label_3->setText(QApplication::translate("AddRecordDialog", "\346\200\247\345\210\253\357\274\232", Q_NULLPTR));
-        label_4->setText(QApplication::translate("AddRecordDialog", "\347\224\267", Q_NULLPTR));
-        label_5->setText(QApplication::translate("AddRecordDialog", "\345\271\264\351\276\204\357\274\232", Q_NULLPTR));
-        label_6->setText(QApplication::translate("AddRecordDialog", "18\345\262\201", Q_NULLPTR));
-        label_7->setText(QApplication::translate("AddRecordDialog", "\350\272\253\344\273\275\350\257\201\345\217\267\357\274\232", Q_NULLPTR));
-        label_8->setText(QApplication::translate("AddRecordDialog", "123456789146", Q_NULLPTR));
-        groupBox_2->setTitle(QApplication::translate("AddRecordDialog", "\350\215\257\345\223\201\345\210\227\350\241\250", Q_NULLPTR));
-        groupBox_5->setTitle(QApplication::translate("AddRecordDialog", "\345\244\207\346\263\250", Q_NULLPTR));
-        groupBox_3->setTitle(QApplication::translate("AddRecordDialog", "\346\267\273\345\212\240\350\215\257\345\223\201", Q_NULLPTR));
-        label_9->setText(QApplication::translate("AddRecordDialog", "\350\215\257\345\223\201\345\220\215\357\274\232", Q_NULLPTR));
-        label_18->setText(QApplication::translate("AddRecordDialog", "\345\215\225\344\273\267\357\274\232", Q_NULLPTR));
-        label_10->setText(QApplication::translate("AddRecordDialog", "\346\225\260\351\207\217\357\274\232", Q_NULLPTR));
-        label_11->setText(QApplication::translate("AddRecordDialog", "\347\233\222", Q_NULLPTR));
-        label_12->setText(QApplication::translate("AddRecordDialog", "\351\207\221\351\242\235\357\274\232", Q_NULLPTR));
-        label_15->setText(QApplication::translate("AddRecordDialog", "\345\205\203", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("AddRecordDialog", "\347\241\256\345\256\232\346\267\273\345\212\240", Q_NULLPTR));
-        groupBox_4->setTitle(QApplication::translate("AddRecordDialog", "\350\256\260\345\275\225\347\212\266\346\200\201", Q_NULLPTR));
-        pushButton_Unpaid->setText(QApplication::translate("AddRecordDialog", "\346\234\252\347\273\223", Q_NULLPTR));
-        pushButton_Paid->setText(QApplication::translate("AddRecordDialog", "\345\267\262\347\273\223", Q_NULLPTR));
-        label_13->setText(QApplication::translate("AddRecordDialog", "\345\275\223\345\211\215\347\212\266\346\200\201\344\270\272\357\274\232", Q_NULLPTR));
-        label_14->setText(QApplication::translate("AddRecordDialog", "\345\267\262\347\273\223", Q_NULLPTR));
-        label_16->setText(QApplication::translate("AddRecordDialog", "\346\200\273\351\207\221\351\242\235\357\274\232", Q_NULLPTR));
-        label_17->setText(QApplication::translate("AddRecordDialog", "0\345\205\203", Q_NULLPTR));
-        groupBox_6->setTitle(QApplication::translate("AddRecordDialog", "\350\256\260\345\275\225\346\227\266\351\227\264", Q_NULLPTR));
-        pushButton_5->setText(QApplication::translate("AddRecordDialog", "\345\217\226\346\266\210", Q_NULLPTR));
-        pushButton_4->setText(QApplication::translate("AddRecordDialog", "\347\241\256\345\256\232", Q_NULLPTR));
+        AddRecordDialog->setWindowTitle(QApplication::translate("AddRecordDialog", "AddRecordDialog", nullptr));
+        groupBox->setTitle(QApplication::translate("AddRecordDialog", "\344\272\272\345\221\230\344\277\241\346\201\257", nullptr));
+        label->setText(QApplication::translate("AddRecordDialog", "\345\247\223\345\220\215\357\274\232", nullptr));
+        label_2->setText(QApplication::translate("AddRecordDialog", "\345\260\217\346\230\216", nullptr));
+        label_3->setText(QApplication::translate("AddRecordDialog", "\346\200\247\345\210\253\357\274\232", nullptr));
+        label_4->setText(QApplication::translate("AddRecordDialog", "\347\224\267", nullptr));
+        label_5->setText(QApplication::translate("AddRecordDialog", "\345\271\264\351\276\204\357\274\232", nullptr));
+        label_6->setText(QApplication::translate("AddRecordDialog", "18\345\262\201", nullptr));
+        label_7->setText(QApplication::translate("AddRecordDialog", "\350\272\253\344\273\275\350\257\201\345\217\267\357\274\232", nullptr));
+        label_8->setText(QApplication::translate("AddRecordDialog", "123456789146", nullptr));
+        groupBox_2->setTitle(QApplication::translate("AddRecordDialog", "\350\215\257\345\223\201\345\210\227\350\241\250", nullptr));
+        groupBox_5->setTitle(QApplication::translate("AddRecordDialog", "\345\244\207\346\263\250", nullptr));
+        groupBox_3->setTitle(QApplication::translate("AddRecordDialog", "\346\267\273\345\212\240\350\215\257\345\223\201", nullptr));
+        label_9->setText(QApplication::translate("AddRecordDialog", "\350\215\257\345\223\201\345\220\215\357\274\232", nullptr));
+        label_18->setText(QApplication::translate("AddRecordDialog", "\345\215\225\344\273\267\357\274\232", nullptr));
+        label_10->setText(QApplication::translate("AddRecordDialog", "\346\225\260\351\207\217\357\274\232", nullptr));
+        label_11->setText(QApplication::translate("AddRecordDialog", "\347\233\222", nullptr));
+        label_12->setText(QApplication::translate("AddRecordDialog", "\351\207\221\351\242\235\357\274\232", nullptr));
+        label_15->setText(QApplication::translate("AddRecordDialog", "\345\205\203", nullptr));
+        pushButton->setText(QApplication::translate("AddRecordDialog", "\347\241\256\345\256\232\346\267\273\345\212\240", nullptr));
+        groupBox_4->setTitle(QApplication::translate("AddRecordDialog", "\350\256\260\345\275\225\347\212\266\346\200\201", nullptr));
+        pushButton_Unpaid->setText(QApplication::translate("AddRecordDialog", "\346\234\252\347\273\223", nullptr));
+        pushButton_Paid->setText(QApplication::translate("AddRecordDialog", "\345\267\262\347\273\223", nullptr));
+        label_13->setText(QApplication::translate("AddRecordDialog", "\345\275\223\345\211\215\347\212\266\346\200\201\344\270\272\357\274\232", nullptr));
+        label_14->setText(QApplication::translate("AddRecordDialog", "\345\267\262\347\273\223", nullptr));
+        label_16->setText(QApplication::translate("AddRecordDialog", "\346\200\273\351\207\221\351\242\235\357\274\232", nullptr));
+        label_17->setText(QApplication::translate("AddRecordDialog", "0\345\205\203", nullptr));
+        groupBox_6->setTitle(QApplication::translate("AddRecordDialog", "\350\256\260\345\275\225\345\210\233\345\273\272\346\227\266\351\227\264", nullptr));
+        pushButton_5->setText(QApplication::translate("AddRecordDialog", "\345\217\226\346\266\210", nullptr));
+        pushButton_4->setText(QApplication::translate("AddRecordDialog", "\347\241\256\345\256\232", nullptr));
     } // retranslateUi
 
 };

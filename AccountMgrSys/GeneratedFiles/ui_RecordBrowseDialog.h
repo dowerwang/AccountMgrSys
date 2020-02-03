@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'RecordBrowseDialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -139,11 +139,11 @@ public:
 
     void retranslateUi(QDialog *RecordBrowseDialog)
     {
-        RecordBrowseDialog->setWindowTitle(QApplication::translate("RecordBrowseDialog", "RecordBrowseDialog", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("RecordBrowseDialog", "\351\253\230\347\272\247\346\220\234\347\264\242", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("RecordBrowseDialog", "\345\210\240\351\231\244\346\211\200\351\200\211", Q_NULLPTR));
-        label->setText(QApplication::translate("RecordBrowseDialog", "\350\265\267\345\247\213\346\227\245\346\234\237\357\274\232", Q_NULLPTR));
-        label_2->setText(QApplication::translate("RecordBrowseDialog", "\347\273\223\346\235\237\346\227\245\346\234\237\357\274\232", Q_NULLPTR));
+        RecordBrowseDialog->setWindowTitle(QApplication::translate("RecordBrowseDialog", "RecordBrowseDialog", nullptr));
+        pushButton->setText(QApplication::translate("RecordBrowseDialog", "\351\253\230\347\272\247\346\220\234\347\264\242", nullptr));
+        pushButton_2->setText(QApplication::translate("RecordBrowseDialog", "\345\210\240\351\231\244\346\211\200\351\200\211", nullptr));
+        label->setText(QApplication::translate("RecordBrowseDialog", "\350\265\267\345\247\213\346\227\245\346\234\237\357\274\232", nullptr));
+        label_2->setText(QApplication::translate("RecordBrowseDialog", "\347\273\223\346\235\237\346\227\245\346\234\237\357\274\232", nullptr));
     } // retranslateUi
 
 };

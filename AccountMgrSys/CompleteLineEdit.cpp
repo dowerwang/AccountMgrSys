@@ -159,5 +159,13 @@ void CompleteLineEdit::keyPressEvent(QKeyEvent *e)
 
 void CompleteLineEdit::focusOutEvent(QFocusEvent *e)
 {
-	m_listView->hide();
+	//如果焦点在listview上就直接返回，为了解决在手动点击的时候出发焦点失去的事件
+	if (m_listView->hasFocus())
+	{
+		return;
+	}
+	else
+	{
+		m_listView->hide();
+	}
 }

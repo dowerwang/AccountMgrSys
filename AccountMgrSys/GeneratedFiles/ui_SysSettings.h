@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'SysSettings.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.6
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -57,7 +57,7 @@ public:
 
     void retranslateUi(QDialog *SysSettings)
     {
-        SysSettings->setWindowTitle(QApplication::translate("SysSettings", "SysSettings", Q_NULLPTR));
+        SysSettings->setWindowTitle(QApplication::translate("SysSettings", "SysSettings", nullptr));
     } // retranslateUi
 
 };
